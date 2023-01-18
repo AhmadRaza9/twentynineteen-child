@@ -1,0 +1,58 @@
+.testimonial, .testimonial-blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.testimonial-role {
+    font-size: 18px;
+}
+
+
+.testimonial.center-align, .testimonial.center-align .testimonial-blockquote {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial.center-reverse, .testimonial.center-reverse .testimonial-blockquote {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+.testimonial.left-align, .testimonial.left-align .testimonial-blockquote {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.testimonial.left-reverse, .testimonial.left-reverse .testimonial-blockquote {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column-reverse;
+}
+
+
+.testimonial.right-align, .testimonial.right-align .testimonial-blockquote {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.testimonial.right-reverse, .testimonial.right-reverse .testimonial-blockquote {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    flex-direction: column-reverse;
+}
+
+blockquote.testimonial-blockquote {
+    border: none;
+}
